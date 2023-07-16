@@ -1,0 +1,264 @@
+body {
+    background-image: url(picbackground.jpg);
+    background-color: rgb(10, 124, 230);
+    background-blend-mode: darken;
+  }
+  #infobox {
+    background-image: url(picbackground.jpg);
+    background-color: rgb(10, 124, 230);
+    background-blend-mode: darken;
+    position: fixed;
+    right: 70px;
+    z-index: 1;
+    height: 81px;
+    width: 1200px;
+  
+    animation: color_change 5s ease-in-out alternate infinite;
+    -webkit-animation: color_change 5s ease-in-out alternate infinite;
+    -moz-animation: color_change 5s ease-in-out alternate infinite;
+    -o-animation: color_change 5s ease-in-out alternate infinite;
+  }
+  @keyframes color_change {
+    0% {
+      border: 7px solid;
+      border-color: #e14d2a;
+    }
+    20% {
+      border: 7px solid;
+      border-color: #b0ffc3;
+    }
+    40% {
+      border: 7px solid;
+      border-color: #ffe300;
+    }
+    60% {
+      border: 7px solid;
+      border-color: #ffa3a3;
+    }
+    80% {
+      border: 7px solid;
+      border-color: black;
+    }
+    100% {
+      border: 7px solid;
+      border-color: #4b4b4b;
+    }
+  }
+  @-webkit-keyframes color_change {
+    0% {
+      border: 7px solid;
+      border-color: #e14d2a;
+    }
+    20% {
+      border: 7px solid;
+      border-color: #b0ffc3;
+    }
+    40% {
+      border: 7px solid;
+      border-color: #ffe300;
+    }
+    60% {
+      border: 7px solid;
+      border-color: #ffa3a3;
+    }
+    80% {
+      border: 7px solid;
+      border-color: black;
+    }
+    100% {
+      border: 7px solid;
+      border-color: #4b4b4b;
+    }
+  }
+  @-moz-keyframes color_change {
+    0% {
+      border: 7px solid;
+      border-color: #e14d2a;
+    }
+    20% {
+      border: 7px solid;
+      border-color: #b0ffc3;
+    }
+    40% {
+      border: 7px solid;
+      border-color: #ffe300;
+    }
+    60% {
+      border: 7px solid;
+      border-color: #ffa3a3;
+    }
+    80% {
+      border: 7px solid;
+      border-color: black;
+    }
+    100% {
+      border: 7px solid;
+      border-color: #4b4b4b;
+    }
+  }
+  @-o-keyframes color_change {
+    0% {
+      border: 7px solid;
+      border-color: #e14d2a;
+    }
+    20% {
+      border: 7px solid;
+      border-color: #b0ffc3;
+    }
+    40% {
+      border: 7px solid;
+      border-color: #ffe300;
+    }
+    60% {
+      border: 7px solid;
+      border-color: #ffa3a3;
+    }
+    80% {
+      border: 7px solid;
+      border-color: black;
+    }
+    100% {
+      border: 7px solid;
+      border-color: #4b4b4b;
+    }
+  }
+  .topbox {
+    position: relative;
+  }
+  .logo {
+    width: 120px;
+    height: 75px;
+  }
+  .email {
+    font-size: small;
+    position: relative;
+    left: 41px;
+  }
+  .phone {
+    font-size: smaller;
+    position: relative;
+    left: 61px;
+  }
+  td {
+    font-family: "Press Start 2P", cursive;
+    color: white;
+  }
+  #carpic {
+    position: relative;
+    bottom: 340px;
+    left: 600px;
+    width: 45%;
+    height: 45%;
+  }
+  #box {
+    width: 250px;
+    height: 100px;
+    background: linear-gradient(
+      170deg,
+      rgba(218, 2, 2, 0.973) 0%,
+      rgb(0, 217, 255) 100%
+    );
+    /* so the first num countrols the the x of the shadow, the 2 controls the y, the 3 the blure striength, 4 the size  */
+    box-shadow: 0px 0px 15px 15px rgba(133, 237, 255, 0.747);
+    border-radius: 6%;
+    position: relative;
+    left: 165px;
+    transition-duration: 1.3s;
+  }
+  #box:hover {
+    transform: scale(0.9);
+  }
+  #price {
+    font-size: 27px;
+    color: rgb(0, 0, 0);
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+  }
+  .sizecar {
+    width: 350px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border: 7px solid;
+    border-color: white;
+  }
+  #more {
+    width: 1280px;
+    height: 30px;
+    background: linear-gradient(
+      170deg,
+      rgba(218, 45, 2, 0.973) 0%,
+      rgb(255, 238, 0) 100%
+    );
+    /* so the first num countrols the the x of the shadow, the 2 controls the y, the 3 the blure striength, 4 the size  */
+    box-shadow: 0px 0px 15px 15px rgba(255, 198, 133, 0.747);
+    border-radius: 6%;
+    position: relative;
+    bottom: 100px;
+  }
+  #more > p {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 234, 0, 0.516);
+    text-align: center;
+    text-transform: capitalize;
+  }
+  #more_move {
+    font-weight: bolder;
+    color: white;
+    background: linear-gradient(
+      170deg,
+      rgb(255, 127, 127) 0%,
+      rgb(0, 217, 255) 100%
+    );
+    box-shadow: 0px 0px 15px 15px rgba(133, 231, 255, 0.747);
+    width: 1200px;
+    height: 270px;
+    position: relative;
+  
+    border-radius: 0% 100% 100% 0% / 2% 100% 0% 98%;
+  }
+  #car1 {
+    width: 100%;
+    height: 100%;
+  }
+  #list {
+    position: relative;
+    top: 110px;
+  }
+  h1 {
+    color: white;
+  }
+  
+  p {
+    color: white;
+    height: 20px;
+    width: fit-content;
+  }
+  #caricon {
+    width: 70px;
+    margin-right: 10px;
+  }
+  .img_size {
+    width: 50px;
+  }
+  @media (min-width: 410px) and (max-width: 1050px) {
+    #box {
+      position: relative;
+  
+      width: 140px;
+      height: 50px;
+    }
+  
+    #price {
+      font-size: 17px;
+      color: rgb(0, 0, 0);
+      font-family: "Orbitron", sans-serif;
+      text-align: center;
+    }
+    .sizecar {
+      position: relative;
+      left: 150px;
+      width: 250px;
+    }
+  }
+  
